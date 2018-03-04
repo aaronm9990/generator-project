@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> jQuery </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+              $('button').click(function(){
+                  var color = $('#color').val();
+                  var name = $('#name').val();
+                  var email = $('#email').val();
+                  var hobbie = $('#hobbie').val();
+              });
+        }); 
+        $(function(){
+            $(document).ready(function(){
+                 $(":button").css("background-color", "lightblue");
+});
+});
+        
+        
+
+
+        
+    </script>
+    
+    
+    
+    <style>
+   div {
+    height: 100px;
+    width: 500px;
+    background-color: powderblue;
+}
+
+    
+    </style>
+    
+</head>
+<h1> Random ID Survey </h1>
+
+<body>
+    <form action="">
+        
+    Name: <input type="text" name="fullname">
+    <br> Email: <input type="text" name="email"> 
+    <br> Hobbie : <input type="text" name="name of hobbie">
+    <br> Favorite Color : <input type="text" name=color>
+    <br> <button>Generate</button>
+    </form>
+</body>
+
+
+</html>
